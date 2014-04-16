@@ -1,0 +1,150 @@
+#wi-wrapper {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    top: 0;
+    z-index: 99;
+    background: #000;
+}
+
+.wi-button {
+    position: absolute;
+    top: 40%;
+    background: url(../images/Instagram_button.png) 0 0 no-repeat;
+    height: 150px;
+    width: 60px;
+    left: -49px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.wi-scroll {
+    overflow: scroll;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.wi-main {
+    float: left;
+
+}
+
+/*
+VIDEO JS
+*/
+
+
+.wi-grid {
+    list-style: none;
+    padding: 0 0 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.wi-grid li {
+    display: inline-block;
+    margin: 10px 5px 0 5px;
+    vertical-align: top;
+    height: 250px;
+    border-radius: 3px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.media {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+.media img {
+    width: 250px;
+    height: 250px;
+}
+.wi-main li:hover {
+    overflow: visible;
+}
+.wi-main li:hover .wi-content {
+    z-index: 999;
+}
+.wi-main .wi-grid li:hover .wi-content {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.wi-content {
+    margin-top: 125px;
+    position: absolute;
+    background: #000;
+    width: 250px;
+    height: 125px;
+    min-height: 125px;
+    padding-top: 10px;
+    z-index: 0;
+}
+
+.wi-comment {
+    margin-top: 12px;
+    color: #b7c0c7;
+    font-size: 12px;
+    /*max-height: 88px;*/
+    overflow: hidden;
+    line-height: 1.2;
+}
+
+.wi-content > p {
+    display: inline-block;
+    color: #9BA6B0;
+    font-weight: 500;
+}
+
+.wi-content > .avatar {
+    background-size: 40px auto;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 40px;
+}
+
+/* Video.js play button */
+.vjs-default-skin
+.vjs-big-play-button:before {
+    color: #fff !important;
+    text-shadow: none !important;
+    line-height: 0 !important;
+}
+.vjs-default-skin
+.vjs-big-play-button {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    left: 50% !important;
+    top: 50% !important;
+    font-size: 8em !important;
+    margin-left: -30px !important;
+    height: 0 !important;
+    width: 0 !important;
+}
+.vjs-default-skin:hover .vjs-big-play-button,
+.vjs-default-skin .vjs-big-play-button:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: 0 none !important;
+    transition: none !important;
+}
+.developedby a,
+.developedby {
+    font-size: 10px;
+    color: #222;
+}
