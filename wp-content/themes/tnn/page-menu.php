@@ -27,7 +27,7 @@ get_header(); ?>
 ?>		
           <div class="content-textured">
             <div class="content-textured-inner content-textured-inner-about"> 
-            <?php the_post_thumbnail(); ?>
+            <?php the_post_thumbnail('full'); ?>
              </div>
           </div>
             <div class="row">

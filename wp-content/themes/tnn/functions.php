@@ -261,6 +261,7 @@ function twentyfourteen_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
+	
 		register_sidebar( array(
 		'name'          => __( 'Menus', 'twentyfourteen' ),
 		'id'            => 'sidebar-11',
