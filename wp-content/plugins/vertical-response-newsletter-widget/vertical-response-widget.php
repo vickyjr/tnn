@@ -134,22 +134,11 @@ function widget_vr($args = false, $echo = true, $atts = false) {
 		$output .=  '<'.$wrap;
 		if($style) { $output .=  ' style="padding:0 0 0.5em 0; margin:0; color: #'.$font_color.'; line-height:1.2;"'; } $output .=  ' class="vr_preface">'.htmlspecialchars(stripslashes($preface)).'</'.$wrap.'>';
 	}
-$output .=  '
-<fieldset'; 
-	if($style) { $output .=  ' style="border:none;"'; }
-	$output .=  '>';
-
 
 #if(htmlspecialchars(stripslashes($options['legend'])) != '') { $output .=  '<legend>'.htmlspecialchars(stripslashes($options['legend'])).'</legend>'; };
 
 if($showname == 'full' ||$showname == 'email') { 
 $output .=  '
-<label for="email_address"';
-if($style) { $output .=  ' style="color: #'.$label_color.'; clear:both; width:100%; float:left;"';}
-$output .=  ' id="email_address_label">'.$email_label;
-if($required) { $output .=  ' <em id="vr_email_required"'; if($style) { $output .=  ' style="font-style:normal;"';} $output .=  '><span'; if($style) { $output .=  ' style="color:red;"';} else { $output .=  ' class="red"';} $output .=  '>*</span> Required</em>';}
-$output .= '
-</label> 
 <input type="text" id="email_address" name="email_address" size="'.$email_input_size.'" value="'.$email_default_value.'"  onfocus="if (this.value == \'Enter your email address\') {this.value = \'\';}" onblur="if (this.value == \'\') {this.value = \'Enter your email address\';}"';
 	if($style) { 
 		$output .=  ' style="margin-top: 5px; margin-bottom: 5px; color:#666; border: 1px solid #999; padding: 3px; width:auto;"';
@@ -195,7 +184,6 @@ if($show_vr_code == 'yes' || $show_vr_code == '') {
 }
 
 $output .=  '
-</fieldset>
 </div>
 </form>'."\n";
 	

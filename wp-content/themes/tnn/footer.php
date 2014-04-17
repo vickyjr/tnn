@@ -10,7 +10,7 @@
  */
 ?>
 <footer id="footer" class="row">
-  <div id="footer-menu" class="medium-3 large-3  columns">
+  <div id="footer-menu" class="medium-5 large-3  columns show-for-medium-up">
     <h3>Navigation</h3>
      <?php wp_nav_menu( array( 'menu' => 'Main menu',
         						  'theme_location' => '', 
@@ -26,9 +26,9 @@
 		endif; 
 		?>
   </div>
-  <div id="map-holder" class="medium-5 large-4 columns">
+  <div id="map-holder" class="medium-5 large-4 columns show-for-medium-up">
     <div class="frame"> <img src="<?php echo get_template_directory_uri(); ?>/img/map-frame.png" alt="frame"> </div>
-    <div class="footer-social"> 
+    <div class="footer-social show-for-medium-up"> 
     	<a href="https://www.facebook.com/TNNRaleigh" target="_blank" class="footer-social-ico footer-fb-ico"> </a> 
     	<a href="https://twitter.com/tnnraleigh" target="_blank" class="footer-social-ico footer-twitter-ico"> </a> 
     	<a href="http://instagram.com/tnnraleigh" target="_blank" class="footer-social-ico footer-instagram-ico"> </a> 
