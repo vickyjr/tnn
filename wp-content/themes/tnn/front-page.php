@@ -14,9 +14,9 @@
 get_header(); ?>
 <div id="slider" class="row">
   <div class="large-12 columns slider-inner">
-  <!--<div class="Slider-overlay">
+ <div class="Slider-overlay">
   <img class="" src="<?php echo get_template_directory_uri(); ?>/img/banner-overlay.png" alt="overlay">
-  </div>-->
+  </div>
   <div class="row">
   <div class="main-slide-img large-12 large-centered columns">
      

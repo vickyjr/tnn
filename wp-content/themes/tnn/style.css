@@ -611,7 +611,7 @@ table.fullcalendar tr{
 	text-align:center
 }
 .Slider-overlay img{
-	width:97%;
+	width:94%;
 }
 .main-slide-img{
 	padding:24px 0 25px 0;
@@ -630,11 +630,11 @@ table.fullcalendar tr{
 .slider-txt-wrap, .slider-txt-wrap div, .fotorama__html > div {
 	height:100%;
 }
-.slider-txt-wrap{
+/*.slider-txt-wrap{
 background:url('img/banner-overlay.png') 0px -8px no-repeat;
 background-size:100%;
 padding:10px 0;
-}
+}*/
 img.fotorama__img{
 width:96%;
 margin-left:4%;
