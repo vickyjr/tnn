@@ -175,11 +175,11 @@ h5 {
 }
 .gallery-item{
     width: 32%;
-max-height: 140px;
-float: left;
-margin-right: 1%;
-margin-bottom:15px;
-overflow:hidden;
+    max-height: 140px;
+    float: left;
+    margin-right: 1%;
+    margin-bottom:15px;
+    overflow:hidden;
 }
 
 .gallery-item img{
@@ -213,10 +213,16 @@ width:100%;
 .content-padding{
     padding: 0 30px; 
 }
+.whole{
+width:100%;
+}
 .content-textured-inner-about{
-    padding:0;
-    width:96.5%;
-    }
+	padding:0;
+	width:96.5%;
+	}
+.content-textured-inner-about > img{
+	width:100%;
+}
 .tabs-content > .content {
     padding: 0px;
 }
@@ -616,7 +622,7 @@ table.fullcalendar tr{
     text-align:center
 }
 .Slider-overlay img{
-    width:97%;
+	width:94%;
 }
 .main-slide-img{
     padding:24px 0 25px 0;
@@ -635,11 +641,11 @@ table.fullcalendar tr{
 .slider-txt-wrap, .slider-txt-wrap div, .fotorama__html > div {
     height:100%;
 }
-.slider-txt-wrap{
+/*.slider-txt-wrap{
 background:url('img/banner-overlay.png') 0px -8px no-repeat;
 background-size:100%;
 padding:10px 0;
-}
+}*/
 img.fotorama__img{
 width:96%;
 margin-left:4%;
