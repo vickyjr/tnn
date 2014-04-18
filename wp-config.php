@@ -18,11 +18,19 @@
 /** The name of the database for WordPress */
 define('DB_NAME', 'vickyjr_durgy_wp');
 
-/** MySQL database username */
-define('DB_USER', 'vickyjr_durgy_wp');
+// if getenv('DURGY_DB_PASSWORD'){
+	/** MySQL database password */
+	// define('DB_PASSWORD', getenv('DURGY_DB_PASSWORD'));
+// }else{
+	define('DB_PASSWORD', '');
+// }
 
-/** MySQL database password */
-define('DB_PASSWORD', 'Hhef2euv');
+// if getenv('DURGY_DB_USER'){
+	/** MySQL database password */
+	// define('DB_USER', getenv('DURGY_DB_USER'));
+// }else{
+	define('DB_USER', 'root');
+// }
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
