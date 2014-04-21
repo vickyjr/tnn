@@ -49,16 +49,16 @@ get_header(); ?>
 			
 <?php $post_testimonial = get_post(87); ?>	
 <div class="row">
-<div class="large-6 columns">	
+<div class="large-5 columns">	
 <?php echo get_the_post_thumbnail($post_testimonial->ID); ?> 
 </div>
-<div class="large-6 columns">
+<div id="testimonials-txt" class="large-7 columns">
 <div class="testimonial">
 <?php echo $post_testimonial->post_content ; ?>
 </div>
 <div class="testimonial-by">
-<span>Sincerely,</span>
-<span><?php echo $post_testimonial->post_title; ?></span>
+<span>Sincerely,</span><br/>
+<span class="by-who"><?php echo $post_testimonial->post_title; ?></span>
 </div>
 </div>
 

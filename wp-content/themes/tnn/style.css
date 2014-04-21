@@ -70,6 +70,27 @@ h5 {
 #tnn-logo img {
 	width: 100%;
 }
+#testimonials-txt{
+	background:#f2f2f2;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+position:relative;
+margin-bottom:60px;
+padding-bottom:10px;
+padding-top:10px;
+}
+#testimonials-txt, #testimonials-txt p{
+	font-size:11px;
+}
+#testimonials-txt .by-who{
+	font-size:13px;
+}
+.testimonial-by{
+position:absolute;
+right:0;
+bottom:-40px;
+}
 #tnn-logo a {
 	float: left;
 }
