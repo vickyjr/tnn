@@ -61,19 +61,14 @@ get_header(); ?>
 <span class="by-who"><?php echo $post_testimonial->post_title; ?></span>
 </div>
 </div>
-
-			
-			
-			
-			
-			
-	</div>	
-			
-			
-			
-			
-			
-			
+</div>	
+<?php $post_inquiry = get_post(97); ?>
+<div class="row">
+<div class="large-12 columns">
+<h1 class="section-titles"><span class="title-arrow"></span><?php echo $post_inquiry->post_title; ?></h1>
+			<?php echo do_shortcode( '[contact-form-7 id="96" title="PARTY INQUIRY"]') ; ?>
+		</div>
+	</div>		
 		</div>
 	</div>
 	</div>
