@@ -17,20 +17,10 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'vickyjr_durgy_wp');
-
-// if getenv('DURGY_DB_PASSWORD'){
-	/** MySQL database password */
-	// define('DB_PASSWORD', getenv('DURGY_DB_PASSWORD'));
-// }else{
-	define('DB_PASSWORD', '');
-// }
-
-// if getenv('DURGY_DB_USER'){
-	/** MySQL database password */
-	// define('DB_USER', getenv('DURGY_DB_USER'));
-// }else{
-	define('DB_USER', 'root');
-// }
+//define('DB_USER', 'root');
+//define('DB_PASSWORD', '');
+define('DB_USER', 'vickyjr_durgy_wp');
+define('DB_PASSWORD', 'Hhef2euv');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
