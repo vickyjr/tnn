@@ -713,6 +713,47 @@ table.inqury-form-holder, table.inqury-form-holder table, table.inqury-form-hold
 table.inqury-form-holder table td{
 width:33%;
 }
+.em-calendar li{
+	list-style:none;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background:#a1856d;
+padding:5px 10px;
+margin:4px;
+display:block;
+text-align:left;
+}
+table.em-calendar td.eventful a{
+	color:#fff;
+}
+table.fullcalendar td {
+    text-align: right;
+    width: 50px;
+    height: 100px;
+    border: 1px solid #ababab;
+    vertical-align: top;
+	background:#f7f7f7;
+}
+
+table.fullcalendar tr:first-child td, table.fullcalendar  td.month_name, table.fullcalendar tr:first-child td a{
+	text-align:center;
+	font-size:26px;
+	color:#666633;
+	font-weight:bold;
+	padding-top:20px;
+	height:60px;
+	background:none;
+}
+table.fullcalendar tr.days-names td{
+	text-align:center;
+	font-size:13px;
+	color:#6c6d70;
+	font-weight:normal;
+	padding-top:5px;
+	height:30px;
+	background:#d4d7dd;
+}
 @media only screen and (max-width: 40em) {
 #slider > div.slider-inner{
 	background:none;
@@ -842,6 +883,10 @@ width:33%;
 	width: 50%;
 	float: left;
 }
+
 }
  @media only screen and (min-width: 64.063em) {
+ body.page-id-11 .content-textured-inner-about{
+	width:97.7%;
+	}
 } /* min-width 1025px, large screens */
