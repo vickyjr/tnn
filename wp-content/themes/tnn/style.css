@@ -562,7 +562,7 @@ div.row .off-grid-guides {
 }
 .book-now {
 	width: 139px;
-	height: 39px;
+	height: 31px;
 	background: url(img/book-now-bg.png) no-repeat;
 	text-transform: uppercase;
 	color: #dfdad7;
@@ -570,6 +570,7 @@ div.row .off-grid-guides {
 	padding: 4px 15px;
 	font-weight: bold;
 	display: inline-block;
+	border:none;
 }
 .book-now:hover {
 	color: #fff;
@@ -704,6 +705,13 @@ right:20px;
 }
 .slider-txt > div{
 padding-top:20px;
+}
+table.inqury-form-holder, table.inqury-form-holder table, table.inqury-form-holder tr, table.inqury-form-holder table tr{
+	background:none;
+	border:none;
+}
+table.inqury-form-holder table td{
+width:33%;
 }
 @media only screen and (max-width: 40em) {
 #slider > div.slider-inner{
