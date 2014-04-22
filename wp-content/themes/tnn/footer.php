@@ -10,7 +10,7 @@
  */
 ?>
 <footer id="footer" class="row">
-  <div id="footer-menu" class="medium-5 large-3  columns show-for-medium-up">
+  <div id="footer-menu" class="medium-4 large-2  columns show-for-medium-up">
     <h3>Navigation</h3>
      <?php wp_nav_menu( array( 'menu' => 'Main menu',
         						  'theme_location' => '', 
@@ -19,7 +19,7 @@
         						  'menu_class' => 'footer-nav side-nav' 
 								  ) ); ?>
   </div>
-  <div class="medium-4 large-5 columns">
+  <div class="medium-4 large-4 columns">
   	<?php 
     	if ( is_active_sidebar( 'sidebar-8' ) ) : 
     		dynamic_sidebar( 'sidebar-8' );
