@@ -70,6 +70,27 @@ h5 {
 #tnn-logo img {
     width: 100%;
 }
+#testimonials-txt{
+	background:#f2f2f2;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+position:relative;
+margin-bottom:60px;
+padding-bottom:10px;
+padding-top:10px;
+}
+#testimonials-txt, #testimonials-txt p{
+	font-size:11px;
+}
+#testimonials-txt .by-who{
+	font-size:13px;
+}
+.testimonial-by{
+position:absolute;
+right:0;
+bottom:-40px;
+}
 #tnn-logo a {
     float: left;
 }
@@ -551,15 +572,16 @@ div.row .off-grid-guides {
     width: 90%;
 }
 .book-now {
-    width: 139px;
-    height: 39px;
-    background: url(img/book-now-bg.png) no-repeat;
-    text-transform: uppercase;
-    color: #dfdad7;
-    font-size: 18px;
-    padding: 4px 15px;
-    font-weight: bold;
-    display: inline-block;
+	width: 139px;
+	height: 31px;
+	background: url(img/book-now-bg.png) no-repeat;
+	text-transform: uppercase;
+	color: #dfdad7;
+	font-size: 18px;
+	padding: 4px 15px;
+	font-weight: bold;
+	display: inline-block;
+	border:none;
 }
 .book-now:hover {
     color: #fff;
@@ -695,6 +717,54 @@ right:20px;
 .slider-txt > div{
 padding-top:20px;
 }
+table.inqury-form-holder, table.inqury-form-holder table, table.inqury-form-holder tr, table.inqury-form-holder table tr{
+	background:none;
+	border:none;
+}
+table.inqury-form-holder table td{
+width:33%;
+}
+.em-calendar li{
+	list-style:none;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background:#a1856d;
+padding:5px 10px;
+margin:4px;
+display:block;
+text-align:left;
+}
+table.em-calendar td.eventful a{
+	color:#fff;
+}
+table.fullcalendar td {
+    text-align: right;
+    width: 50px;
+    height: 100px;
+    border: 1px solid #ababab;
+    vertical-align: top;
+	background:#f7f7f7;
+}
+
+table.fullcalendar tr:first-child td, table.fullcalendar  td.month_name, table.fullcalendar tr:first-child td a{
+	text-align:center;
+	font-size:26px;
+	color:#666633;
+	font-weight:bold;
+	padding-top:20px;
+	height:60px;
+	background:none;
+}
+table.fullcalendar tr.days-names td{
+	text-align:center;
+	font-size:13px;
+	color:#6c6d70;
+	font-weight:normal;
+	padding-top:5px;
+	height:30px;
+	background:#d4d7dd;
+}
 @media only screen and (max-width: 40em) {
 #slider > div.slider-inner{
     background:none;
@@ -824,6 +894,10 @@ padding-top:20px;
     width: 50%;
     float: left;
 }
+
 }
  @media only screen and (min-width: 64.063em) {
+ body.page-id-11 .content-textured-inner-about{
+	width:97.7%;
+	}
 } /* min-width 1025px, large screens */
