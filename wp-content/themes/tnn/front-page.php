@@ -13,12 +13,12 @@
 
 get_header(); ?>
 <div id="slider" class="row">
-  <div class="large-12 columns slider-inner">
+  <div class="large-12 columns slider-inner ">
  <div class="Slider-overlay">
   <img class="" src="<?php echo get_template_directory_uri(); ?>/img/banner-overlay.png" alt="overlay">
   </div>
   <div class="row">
-  <div class="main-slide-img large-12 large-centered columns">
+  <div class="main-slide-img large-12 large-centered columns ">
      
 
 
@@ -32,7 +32,7 @@ get_header(); ?>
   <div class="row">
   <div class="medium-7 medium-offset-5 large-6 large-offset-6 columns">
   <div class="row slider-txt">
-  <div class="small-10 medium-9 large-10 columns">
+  <div class="small-10 medium-9 large-10 columns ">
   <h1><?php the_title(); ?></h1>
   <?php substr(the_content(),50); ?>
   <a href="<?php echo get_permalink(); ?>" class="learn-more">Learn More</a>
@@ -54,7 +54,7 @@ get_header(); ?>
     <div class="row">
       <div class="large-8 columns">
         <div class="row">
-          <div class="large-12 columns show-for-large-up content-padding">
+          <div class="large-12 columns show-for-medium-up content-padding">
 
 			<?php
 				// Start the Loop.
@@ -338,7 +338,7 @@ get_header(); ?>
 		<div class="row show-for-medium-up">
           <div class="large-12 columns shadow"> <img src="<?php echo get_template_directory_uri(); ?>/img/shadow.png" alt="shadow"> </div>
         </div>
-		<div class="row off-grid-guides show-for-large-up">
+		<div class="row off-grid-guides show-for-medium-up">
           <div class="large-12 columns">
             <h4 class="section-titles"><span class="title-arrow"></span>BOOK A PARTY</h4>
 <?php

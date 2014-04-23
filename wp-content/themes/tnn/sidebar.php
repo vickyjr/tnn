@@ -37,7 +37,7 @@
           </div>
         </div>
 		<?php endif; ?>
-        <div id="social-holder" class="row">
+        <div id="social-holder" class="row show-for-medium-up">
           <div class="small-12 large-12 columns">
             <div class="tabs-content vertical">
               <div class="content active" id="panel1a">

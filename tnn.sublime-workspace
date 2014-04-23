@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "wp-content/themes/tnn/style.css",
-			"settings":
-			{
-				"buffer_size": 16893,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -555,16 +547,27 @@
 	},
 	"file_history":
 	[
-		"/C/Users/user/Downloads/satoshinakamoto.asc",
-		"/C/wamp/www/tnn/wp-content/themes/tnn/style.css",
-		"/C/wamp/www/tnn/wp-content/themes/tnn/footer.php",
-		"/C/Users/user/Downloads/vickyjr_durgy_wp.sql",
-		"/C/wamp/www/tnn/wp-content/themes/tnn/content-gallery.php",
 		"/C/wamp/www/tnn/wp-content/themes/tnn/front-page.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/footer.php",
 		"/C/wamp/www/tnn/wp-content/themes/tnn/sidebar-newsletter.php",
-		"/C/wamp/www/tnn/.htaccess",
-		"/C/wamp/www/tnn/wp-content/plugins/vertical-response-newsletter-widget/vertical-response-widget.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/index.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/sidebar.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/page-private-parties-catering.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/content.php",
 		"/C/wamp/www/tnn/wp-config.php",
+		"/C/wamp/www/tnn/.htaccess",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/content-gallery.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/page-gallery.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/sidebar-footer.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/our-events.html",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/page-events.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/style.css",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/header.php",
+		"/C/wamp/www/tnn/user-example.php",
+		"/C/wamp/www/tnn/wp-content/themes/tnn/featured-content.php",
+		"/C/Users/user/Downloads/satoshinakamoto.asc",
+		"/C/Users/user/Downloads/vickyjr_durgy_wp.sql",
+		"/C/wamp/www/tnn/wp-content/plugins/vertical-response-newsletter-widget/vertical-response-widget.php",
 		"/C/Users/user/Documents/Projects/tnn/wp-config.php",
 		"/C/Users/user/Documents/Projects/tnn/wp-content/themes/tnn/content-gallery.php",
 		"/C/Users/user/Documents/Projects/tnn/wp-content/themes/tnn/front-page.php",
@@ -671,18 +674,7 @@
 		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/models/transfers.py",
 		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/models/transactions.py",
 		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/tests/unit/transfer_tests.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/tests/functional/__init__.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/dashboard/views/main.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/dashboard/reports/reports.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/dashboard/reports/views.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/dashboard/reports/utils.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/dashboard/views/accounts.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/dashboard/communications/views.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/dashboard/communications/models.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/security.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/tests/unit/security_tests.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/tests/functional/dashboard_tests.py",
-		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/facade/__init__.py"
+		"/C/Users/user/Documents/Projects/ajab/wsgi/ajab/apps/core/tests/functional/__init__.py"
 	],
 	"find":
 	{
@@ -714,6 +706,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"show-for-medium-up",
+			"show-for-large-up",
+			"medium-u",
+			"medium",
+			"show",
+			"map",
+			"fullca",
 			"HEAD",
 			"fieldset",
 			"field",
@@ -834,14 +833,7 @@
 			"184",
 			"core.",
 			"core_",
-			"core.",
-			".code",
-			"is_systemdefined",
-			"credit_",
-			".credit_",
-			", 'credit_limit':D('0.0')",
-			"label",
-			"type_instance"
+			"core."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -849,6 +841,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"show-for-small-up",
 			"http://localhost/tnn/",
 			"",
 			"item_type",
@@ -975,8 +968,7 @@
 			"transferget_account_type(",
 			"transfer",
 			"as_dict",
-			"reverse_transfer",
-			"__primary_user__id"
+			"reverse_transfer"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -987,39 +979,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "wp-content/themes/tnn/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16893,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12616,
-								12616
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 8775.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

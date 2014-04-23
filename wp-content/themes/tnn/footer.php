@@ -26,7 +26,7 @@
 		endif; 
 		?>
   </div>
-  <div id="map-holder" class="medium-5 large-4 columns show-for-medium-up">
+  <div id="map-holder" class="medium-5 large-4 columns show-for-small-up">
     <div class="frame"> <img src="<?php echo get_template_directory_uri(); ?>/img/map-frame.png" alt="frame"> </div>
     <div class="footer-social show-for-medium-up"> 
     	<a href="https://www.facebook.com/TNNRaleigh" target="_blank" class="footer-social-ico footer-fb-ico"> </a> 

@@ -7,7 +7,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<div class="row show-for-large-up">
+<div class="row show-for-small-up">
   <div class="large-12 columns">
     <div id="gift-newsletter" class="content-textured">
       <div class="content-textured-inner">
