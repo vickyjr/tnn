@@ -766,6 +766,15 @@ table.fullcalendar tr.days-names td{
 	height:30px;
 	background:#d4d7dd;
 }
+#menu-menus li{
+    background:url(img/menu-links-bg.png) left center no-repeat;
+	padding-left:20px;
+	list-style:none;
+	}
+#menu-menus li a{
+	color:#663333;
+	text-decoration:underline;
+}
 @media only screen and (max-width: 40em) {
 #slider > div.slider-inner{
     background:none;
@@ -898,7 +907,7 @@ table.fullcalendar tr.days-names td{
 
 }
  @media only screen and (min-width: 64.063em) {
- body.page-id-11 .content-textured-inner-about{
+ body.page-id-11 .content-textured-inner-about, body.page-id-5 .content-textured-inner-about{
 	width:97.7%;
 	}
 } /* min-width 1025px, large screens */
