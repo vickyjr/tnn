@@ -29,10 +29,10 @@ get_header(); ?>
 		<div class="content-textured whole">
             <div class="content-textured-inner content-textured-inner-about">
 				<?php the_content();
-?>
-	</div>
-	</div>
-<?php	
+			?>
+				</div>
+				</div>
+			<?php	
 				endwhile;
 			?>
 

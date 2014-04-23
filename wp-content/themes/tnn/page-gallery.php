@@ -30,7 +30,7 @@ get_header(); ?>
 			  </a> 
 			  </div>
               <div class="text-center"><h5>Pub Pics</h5>
-              <span>(21 images)</span></div> </div>
+              </div> </div>
             <div class="medium-5 medium-offset-1 large-5 large-offset-1 end columns"> </div>
           </div>
           <h3 class="section-titles"><span class="title-arrow"></span> VIDEO GALLERY</h3>
@@ -45,7 +45,6 @@ get_header(); ?>
 			  </div>
               <div class="text-center">
 			  <h5>The Belfast Boys</h5>
-              <span>(21 images)</span>
 			  </div> 
 			  </div>
             <div class="medium-5 medium-offset-1 large-5 large-offset-1 columns end  gallery-holder">
@@ -59,7 +58,6 @@ get_header(); ?>
 			  </div>
               <div class="text-center">
 			  <h5>Run Green 8K 2009</h5>
-              <span>(21 images)</span>
 			  </div>
               </div>
           </div>

@@ -13,12 +13,12 @@
 
 get_header(); ?>
 <div id="slider" class="row">
-  <div class="large-12 columns slider-inner">
+  <div class="large-12 columns slider-inner ">
  <div class="Slider-overlay">
   <img class="" src="<?php echo get_template_directory_uri(); ?>/img/banner-overlay.png" alt="overlay">
   </div>
   <div class="row">
-  <div class="main-slide-img large-12 large-centered columns">
+  <div class="main-slide-img large-12 large-centered columns ">
      
 
 
@@ -32,7 +32,7 @@ get_header(); ?>
   <div class="row">
   <div class="medium-7 medium-offset-5 large-6 large-offset-6 columns">
   <div class="row slider-txt">
-  <div class="small-10 medium-9 large-10 columns">
+  <div class="small-10 medium-9 large-10 columns ">
   <h1><?php the_title(); ?></h1>
   <?php substr(the_content(),50); ?>
   <a href="<?php echo get_permalink(); ?>" class="learn-more">Learn More</a>
@@ -49,12 +49,12 @@ get_header(); ?>
   </div>
 </div></div>
 
-<div id="main-content" class="row">
+<div id="main-content" class="row ">
   <div class="large-12 columns">
     <div class="row">
       <div class="large-8 columns">
         <div class="row">
-          <div class="large-12 columns">
+          <div class="large-12 columns show-for-medium-up content-padding">
 
 			<?php
 				// Start the Loop.
@@ -66,7 +66,7 @@ get_header(); ?>
 			?>
 		</div>
 	</div>
-	<div class="row off-grid-guides">
+	<div class="row off-grid-guides show-for-medium-up">
 
           <div class="large-12 columns">
             <h4 class="section-titles"><span class="title-arrow"></span>THIS WEEK AT TIR NA NOG</h4>
@@ -85,32 +85,32 @@ get_header(); ?>
                   <div class="row">
 				  <?php
 				  
-	$EM_Events = EM_Events::get(array('limit'=>3, 'orderby'=>'name', category=>'3'));
-	foreach ( $EM_Events as $EM_Event ) {
-	?>
-	<div class="medium-4 large-4 columns top-event text-center">                    
-	
+						$EM_Events = EM_Events::get(array('limit'=>3, 'orderby'=>'name', category=>'3'));
+						foreach ( $EM_Events as $EM_Event ) {
+						?>
+						<div class="medium-4 large-4 columns top-event text-center">                    
+						
 
-	<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
-	<h4><?php echo $EM_Event->event_name; ?></h4>
-	<p>
-	<?php
-	
-		echo $EM_Event->post_content;
-		?>
-		</p>
-        <a href="<?php echo $EM_Event->guid; ?>"><span class="date-ico tiny-ico"></span>
-		<?php
-		echo $EM_Event->event_start_date;
-		?>
-		</a> <a href="<?php echo $EM_Event->guid; ?>"><span class="time-ico tiny-ico"></span>
-		<?php
-		echo $EM_Event->event_start_time;
-		?>
-		</a> </div>
-		<?php
-	
-	}
+						<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+						<h4><?php echo $EM_Event->event_name; ?></h4>
+						<p>
+						<?php
+						
+							echo $EM_Event->post_content;
+							?>
+							</p>
+					        <a href="<?php echo $EM_Event->guid; ?>"><span class="date-ico tiny-ico"></span>
+							<?php
+							echo $EM_Event->event_start_date;
+							?>
+							</a> <a href="<?php echo $EM_Event->guid; ?>"><span class="time-ico tiny-ico"></span>
+							<?php
+							echo $EM_Event->event_start_time;
+							?>
+							</a> </div>
+							<?php
+						
+						}
 				  ?>
                     
                   </div>
@@ -335,10 +335,10 @@ get_header(); ?>
             </div>
           </div>
         </div>
-		<div class="row">
+		<div class="row show-for-medium-up">
           <div class="large-12 columns shadow"> <img src="<?php echo get_template_directory_uri(); ?>/img/shadow.png" alt="shadow"> </div>
         </div>
-		<div class="row off-grid-guides">
+		<div class="row off-grid-guides show-for-medium-up">
           <div class="large-12 columns">
             <h4 class="section-titles"><span class="title-arrow"></span>BOOK A PARTY</h4>
 <?php
@@ -377,7 +377,7 @@ get_header(); ?>
             </div>
           </div>
         </div>
-		<div class="row">
+		<div class="row show-for-large-up">
           <div class="large-12 columns shadow"> <img src="<?php echo get_template_directory_uri(); ?>/img/shadow.png" alt="shadow"> </div>
         </div>
 	</div>

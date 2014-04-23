@@ -49,18 +49,18 @@ get_header(); ?>
 			
 <?php $post_testimonial = get_post(87); ?>	
 <div class="row">
-<div class="large-5 columns">	
-<?php echo get_the_post_thumbnail($post_testimonial->ID); ?> 
-</div>
-<div id="testimonials-txt" class="large-7 columns">
-<div class="testimonial">
-<?php echo $post_testimonial->post_content ; ?>
-</div>
-<div class="testimonial-by">
-<span>Sincerely,</span><br/>
-<span class="by-who"><?php echo $post_testimonial->post_title; ?></span>
-</div>
-</div>
+	<div class="large-5 columns">	
+		<?php echo get_the_post_thumbnail($post_testimonial->ID); ?> 
+	</div>
+	<div id="testimonials-txt" class="large-7 columns show-for-medium-up">
+		<div class="testimonial">
+			<?php echo $post_testimonial->post_content ; ?>
+		</div>
+		<div class="testimonial-by">
+			<span>Sincerely,</span><br/>
+			<span class="by-who"><?php echo $post_testimonial->post_title; ?></span>
+		</div>
+	</div>
 </div>	
 <?php $post_inquiry = get_post(97); ?>
 <div class="row">
