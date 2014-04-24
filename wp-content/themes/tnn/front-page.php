@@ -27,7 +27,7 @@ get_header(); ?>
 <?php query_posts('cat=10'); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div data-thumb="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>" 
-  data-img="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>" data-thumbratio="190/90">
+  data-img="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>" data-thumbratio="190/133">
   <div class="slider-txt-wrap">
   <div class="row">
   <div class="medium-8 medium-offset-4 large-7 large-offset-5 columns">
