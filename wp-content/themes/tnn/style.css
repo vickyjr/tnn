@@ -632,8 +632,6 @@ table.fullcalendar tr{
     overflow:hidden;
     margin-bottom:15px;
     background-size:100%;
-    padding-left:6%;
-    padding-right:6%;
     position:relative;
     }
 .Slider-overlay{
@@ -656,9 +654,10 @@ table.fullcalendar tr{
     border:none;
 }
 .slider-txt{
-    background:url(img/caption-bg.png);
+    /*background:url(img/caption-bg.png);*/
     text-align:right;
     heigt:100%;
+	padding-right:20px;
 }
 .slider-txt-wrap, .slider-txt-wrap div, .fotorama__html > div {
     height:100%;

@@ -12,27 +12,27 @@
  */
 
 get_header(); ?>
-<div id="slider" class="row">
+<div id="slider" class="row hide-for-small-only">
   <div class="large-12 columns slider-inner ">
- <div class="Slider-overlay">
+ <!-- <div class="Slider-overlay">
   <img class="" src="<?php echo get_template_directory_uri(); ?>/img/banner-overlay.png" alt="overlay">
-  </div>
+  </div> -->
   <div class="row">
   <div class="main-slide-img large-12 large-centered columns ">
      
 
 
 <!-- 2. Add images to <div class="fotorama"></div>. -->
-<div class="fotorama" data-nav="thumbs" data-thumbheight="133" data-transition="crossfade" data-fit="cover">
+<div class="fotorama" data-nav="thumbs" data-thumbheight="133" data-width="100%" data-thumbratio="190/90" data-transition="crossfade" data-fit="cover">
 <?php query_posts('cat=10'); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div data-thumb="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>" 
-  data-img="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>" data-thumbratio="190/133">
+  data-img="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>" data-thumbratio="190/90">
   <div class="slider-txt-wrap">
   <div class="row">
-  <div class="medium-7 medium-offset-5 large-6 large-offset-6 columns">
+  <div class="medium-8 medium-offset-4 large-7 large-offset-5 columns">
   <div class="row slider-txt">
-  <div class="small-10 medium-9 large-10 columns ">
+  <div class="small-10 medium-10 large-10 columns ">
   <h1><?php the_title(); ?></h1>
   <?php substr(the_content(),50); ?>
   <a href="<?php echo get_permalink(); ?>" class="learn-more">Learn More</a>
