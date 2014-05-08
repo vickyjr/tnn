@@ -56,12 +56,27 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery.js"></script> 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/foundation.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.fakecrop.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.nailthumb.1.1.min.js"></script>
 <script>
+   $(document).ready(function () {
+        // for a filled square thumbnail
+        //$('img.attachment-thumbnail').fakecrop();
+			// for a fixed width/height
+        //$('img.attachment-thumbnail').fakecrop({fill: false});
+		jQuery('.gallery-icon a').nailthumb({width:194,height:194});
+
+    });
       $(document).foundation();
 	  //$("#top-menu").hide();
 	  $(".toggle-top-menu").click(function(){
   		$("#top-menu").toggle();
 		});
-    </script>
+		
+
+		
+
+ 
+</script>
 </body>
 </html>

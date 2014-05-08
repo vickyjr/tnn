@@ -22,8 +22,8 @@ get_header(); ?>
      
 
 
-<!-- 2. Add images to <div class="fotorama"></div>. -->
-<div class="fotorama" data-nav="thumbs" data-thumbheight="133" data-width="100%" data-thumbratio="190/90" data-transition="crossfade" data-fit="cover">
+<!-- 2. Add images to <div class="fotorama"></div>. data-nav="thumbs" -->
+<div class="fotorama" data-thumbheight="133" data-width="100%" data-thumbratio="190/90" data-transition="crossfade" data-fit="cover">
 <?php query_posts('cat=10'); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div data-thumb="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>" 
@@ -91,7 +91,7 @@ get_header(); ?>
 						<div class="medium-4 large-4 columns top-event text-center">                    
 						
 
-						<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+						<div class="today_thumb"><?php echo get_the_post_thumbnail($EM_Event->post_id); ?></div>
 						<h4><?php echo $EM_Event->event_name; ?></h4>
 						<p>
 						<?php
@@ -127,7 +127,7 @@ get_header(); ?>
 	<div class="medium-4 large-4 columns top-event text-center">                    
 	
 	
-	<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+	<div class="today_thumb"><?php echo get_the_post_thumbnail($EM_Event->post_id); ?></div>
 	<h4><?php echo $EM_Event->event_name; ?></h4>
 	<p>
 	<?php
@@ -163,7 +163,7 @@ get_header(); ?>
 	<div class="medium-4 large-4 columns top-event text-center">                    
 	
 	
-	<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+	<div class="today_thumb"><?php echo get_the_post_thumbnail($EM_Event->post_id); ?></div>
 	<h4><?php echo $EM_Event->event_name; ?></h4>
 	<p>
 	<?php
@@ -199,7 +199,7 @@ get_header(); ?>
 	<div class="medium-4 large-4 columns top-event text-center">                    
 	
 	
-	<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+	<div class="today_thumb"><?php echo get_the_post_thumbnail($EM_Event->post_id); ?></div>
 	<h4><?php echo $EM_Event->event_name; ?></h4>
 	<p>
 	<?php
@@ -235,7 +235,7 @@ get_header(); ?>
 	<div class="medium-4 large-4 columns top-event text-center">                    
 	
 	
-	<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+	<div class="today_thumb"><?php echo get_the_post_thumbnail($EM_Event->post_id); ?></div>
 	<h4><?php echo $EM_Event->event_name; ?></h4>
 	<p>
 	<?php
@@ -271,7 +271,7 @@ get_header(); ?>
 	<div class="medium-4 large-4 columns top-event text-center">                    
 	
 	
-	<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+	<div class="today_thumb"><?php echo get_the_post_thumbnail($EM_Event->post_id); ?></div>
 	<h4><?php echo $EM_Event->event_name; ?></h4>
 	<p>
 	<?php
@@ -307,7 +307,7 @@ get_header(); ?>
 	<div class="medium-4 large-4 columns top-event text-center">                    
 	
 	
-	<?php echo get_the_post_thumbnail($EM_Event->post_id); ?>
+	<div class="today_thumb"><?php echo get_the_post_thumbnail($EM_Event->post_id); ?></div>
 	<h4><?php echo $EM_Event->event_name; ?></h4>
 	<p>
 	<?php
@@ -359,7 +359,9 @@ get_header(); ?>
 					<img src="img/party-photo3.jpg" alt="party"> </div>
                     <div class="medium-7 large-8 columns">
                       <h5><?php echo $post_private_party->post_title; ?></h5>
+					  <p>
                       <?php echo $post_private_party->post_content ; ?>
+					  </p>
                       <a href="#" class="book-now">book now</a> </div>
                   </div>
                 </div>

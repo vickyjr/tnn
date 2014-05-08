@@ -1,6 +1,6 @@
 <?php 
 /*
- * This file contains the HTML generated for full calendars. You can copy this file to yourthemefolder/plugins/events/templates and modify it in an upgrade-safe manner.
+ * This file contains the HTML generated for full calendars. You can copy this file to yourthemefolder/plugins/events-manager/templates and modify it in an upgrade-safe manner.
  * 
  * There are two variables made available to you: 
  * 
@@ -17,7 +17,10 @@ $col_max = count($calendar['row_headers']); //each time this collumn number is r
 	<thead>
 		<tr>
 			<td><a class="em-calnav full-link em-calnav-prev" href="<?php echo $calendar['links']['previous_url']; ?>">&lt;&lt;</a></td>
-			<td class="month_name" colspan="5"><?php echo ucfirst(date_i18n(get_option('dbem_full_calendar_month_format'), $calendar['month_start'])); ?></td>
+			<td class="month_name" colspan="5">
+			<?php echo ucfirst(date(get_option('dbem_full_calendar_month_format'), $calendar['month_start'])); ?>
+			<?php //echo date_i18n(F Y); ?>
+			</td>
 			<td><a class="em-calnav full-link em-calnav-next" href="<?php echo $calendar['links']['next_url']; ?>">&gt;&gt;</a></td>
 		</tr>
 	</thead>

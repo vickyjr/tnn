@@ -30,8 +30,20 @@ get_header(); ?>
 			  </a> 
 			  </div>
               <div class="text-center"><h5>Pub Pics</h5>
-              </div> </div>
-            <div class="medium-5 medium-offset-1 large-5 large-offset-1 end columns"> </div>
+              </div> 
+			  </div>
+            <div class="medium-5 medium-offset-1 large-5 large-offset-1 end columns gallery-holder">
+			    <div class="gallery-main-holder"> 
+			  <img src="<?php echo get_template_directory_uri(); ?>/img/gallery-photo-main.png" alt="gallery main photo"> 
+			  </div>
+              <div class="gallery-frame"> 
+			  <a href="<?php echo get_site_url(); ?>/other-pics">
+			  <img src="<?php echo get_template_directory_uri(); ?>/img/gallery-frame.png" alt="frame">
+			  </a> 
+			  </div>
+              <div class="text-center"><h5>Other Pics</h5>
+              </div>
+			</div>
           </div>
           <h3 class="section-titles"><span class="title-arrow"></span> VIDEO GALLERY</h3>
           <div class="row">

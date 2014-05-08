@@ -30,6 +30,7 @@
 	<![endif]-->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/foundation.min.css" />
 	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.css" rel="stylesheet"> 
+	<link  href="<?php echo get_template_directory_uri(); ?>/css/jquery.nailthumb.1.1.min.css" rel="stylesheet"> 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr.js"></script>
 	<?php wp_head(); ?>
 </head>
@@ -56,9 +57,16 @@
 								  ) ); ?>
       </div>
       <div id="social-top" class="small-5 small-push-5 medium-reset-order large-2 medium-3 large-reset-order columns"> 
-      	<a href="https://www.facebook.com/TNNRaleigh" target="_blank"><span class="social-top social-top-fb"></span></a> 
-		<a href="https://twitter.com/tnnraleigh"  target="_blank"><span class="social-top social-top-twitter"></span></a> 
-		<a href="http://instagram.com/tnnraleigh"  target="_blank"><span class="social-top social-top-instagram"></span></a> </div>
+      	<a href="https://www.facebook.com/TNNRaleigh" target="_blank">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" />
+		<!-- <span class="social-top social-top-fb"></span> --></a> 
+		<a href="https://twitter.com/tnnraleigh"  target="_blank">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" />
+		<!-- <span class="social-top social-top-twitter"></span> --></a> 
+		<a href="http://instagram.com/tnnraleigh"  target="_blank">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" />
+		<!-- <span class="social-top social-top-instagram"></span> -->
+		</a> </div>
     </div>
   </div>
 </div>

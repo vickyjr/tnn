@@ -133,6 +133,10 @@ bottom:-40px;
     float:left;
     margin:0;
     }
+#social-top  img{
+margin-right:5px;
+display:inline-block;
+}
 .panel1a, .panel2a, .panel3a{
     overflow:hidden;
     padding:0;
@@ -196,17 +200,25 @@ bottom:-40px;
 }
 .gallery-item{
     width: 32%;
-    max-height: 140px;
+    max-height: 194px;
     float: left;
     margin-right: 1%;
     margin-bottom:15px;
     overflow:hidden;
+	position:relative;
 }
 
 .gallery-item img{
     width:100%;
-    heght:auto;
+    height:auto;
 }
+
+.gallery-icon > a{
+            width: 250px;
+            height: 250px;
+			display:block;
+			float:left;
+        }
 #photos-thumbs a.th{
     margin-top: 12px;
     margin-bottom: 12px;
@@ -220,7 +232,8 @@ bottom:-40px;
 width:100%;
 }
 .content-textured {
-    background: url(img/border-texture.png);
+    /*background: url(img/border-texture.png);*/
+	background: url(img/matte-black.jpg);
     max-width: 100%;
     float: left;
 }
@@ -230,6 +243,9 @@ width:100%;
     padding: 10px;
     max-width: 100%;
     float: left;
+}
+table.em-calendar{
+margin:0;
 }
 .content-padding{
     padding: 0 30px; 
@@ -264,12 +280,20 @@ div.row .off-grid-guides {
     font-size: 14px;
 }
 .parties-tabs dd.active a {
-    border-top: #4f5c3e 2px solid;
-    background: #eaeaea;
+    border-top: #fff 2px solid;
+    /*background: #eaeaea;*/
+	background:#4f5c3e;
+	color:#fff;
 }
 .party-photos img {
     margin-bottom: 7px;
     width: 100%;
+}
+
+.today_thumb{
+width:100%;
+height:90px;
+overflow:hidden;
 }
 .tiny-ico {
     display: inline-block;
@@ -583,6 +607,11 @@ div.row .off-grid-guides {
 	display: inline-block;
 	border:none;
 }
+
+input.book-now {
+height:27px;
+padding:2px;
+}
 .book-now:hover {
     color: #fff;
 }
@@ -740,7 +769,7 @@ table.em-calendar td.eventful a{
 }
 table.fullcalendar td {
     text-align: right;
-    width: 70px;
+    width: 14.28%;
     height: 100px;
     border: 1px solid #ababab;
     vertical-align: top;
@@ -774,6 +803,7 @@ table.fullcalendar tr.days-names td{
 	color:#663333;
 	text-decoration:underline;
 }
+
 @media only screen and (max-width: 40em) {
 #slider > div.slider-inner{
     background:none;
@@ -864,6 +894,9 @@ table.fullcalendar tr.days-names td{
     line-height:16px;
     font-family:Helvetica, san-serif;
 }
+.gallery-item{
+    width: 194px;
+	}
 } /* Define mobile styles */
  @media only screen and (min-width: 40.063em) {
 /*#tnn-logo {
@@ -897,7 +930,12 @@ table.fullcalendar tr.days-names td{
     font-size: 15px;
 }
 #social-top {
-    top: -15px;
+    top: -18px;
+}
+
+#social-top  img, #social-top  a{
+margin-right:5px;
+display:inline-block;
 }
 #main-sidebar > .row {
     width: 50%;
