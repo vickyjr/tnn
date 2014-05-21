@@ -35,7 +35,8 @@ get_header(); ?>
   <div class="small-10 medium-10 large-10 columns ">
   <h1><?php the_title(); ?></h1>
   <?php substr(the_content(),50); ?>
-  <a href="<?php echo get_permalink(); ?>" class="learn-more">Learn More</a>
+  <!-- <a href="<?php echo get_permalink(); ?>" class="learn-more">Learn More</a> -->
+  <a href="http://durgy.vitaldigitalmedia.net/hq-food" class="learn-more">Learn More</a>
   </div>  
   </div> 
     </div> 
@@ -69,7 +70,7 @@ get_header(); ?>
 	<div class="row off-grid-guides show-for-medium-up">
 
           <div class="large-12 columns">
-            <h4 class="section-titles"><span class="title-arrow"></span>THIS WEEK AT TIR NA NOG</h4>
+            <h4 class="section-titles"><span class="title-arrow"></span><?php echo date('l') ?> AT TIR NA NOG</h4>
             <dl class="tabs parties-tabs" data-tab>
               <dd class="active"><a href="#day-1">SUNDAY</a></dd>
               <dd><a href="#day-2">MONDAY</a></dd>
@@ -354,15 +355,15 @@ get_header(); ?>
               <div class="content content-textured active" id="panel2-1">
                 <div class="content-textured-inner">
                   <div class="row">
-                    <div class="large-4 medium-5 columns party-photos"> 
-					<img src="img/party-photo1.jpg" alt="party"> <?php echo get_the_post_thumbnail($post_private_party->ID); ?> 
-					<img src="img/party-photo3.jpg" alt="party"> </div>
+                    <div class="large-4 medium-5 columns party-photos">
+						<?php echo get_the_post_thumbnail($post_private_party->ID); ?> 
+					</div>
                     <div class="medium-7 large-8 columns">
                       <h5><?php echo $post_private_party->post_title; ?></h5>
 					  <p>
                       <?php echo $post_private_party->post_content ; ?>
 					  </p>
-                      <a href="#" class="book-now">book now</a> </div>
+                      <a href="<?php echo get_site_url() ?>/party-inquiry/" class="book-now">book now</a> </div>
                   </div>
                 </div>
               </div>

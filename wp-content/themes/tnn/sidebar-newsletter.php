@@ -18,7 +18,7 @@
             <h4>DON'T FORGET OUR</h4>
             <h3>GIFT CARDS!</h3>				
             <p><?php dynamic_sidebar( 'sidebar-6' ); ?></p>
-            <a href="#" class="book-now">book now</a> </div>
+            <a href="http://durgy.vitaldigitalmedia.net/private-parties-catering/" class="book-now">book now</a> </div>
 			<?php endif; ?>
 			<?php if ( is_active_sidebar( 'sidebar-7' ) ): ?>
           <div class="large-6 columns right-side">

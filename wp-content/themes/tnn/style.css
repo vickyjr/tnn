@@ -21,17 +21,17 @@ body {
     background-size: 100%;
     color: #4b4033;
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', sans-serif !important;
 }
 p {
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', sans-serif !important;
 }
 h3 {
     color: #634122;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', sans-serif !important;
 }
 h2{
 color:#4f5c3e;
@@ -41,7 +41,7 @@ h5 {
     color: #634122;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', sans-serif !important;
 }
 .read-more {
     color: #4f5c3e;
@@ -71,8 +71,8 @@ h5 {
     width: 100%;
 }
 #testimonials-txt{
-	background:#f2f2f2;
-	-webkit-border-radius: 3px;
+    background:#f2f2f2;
+    -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
 border-radius: 3px;
 position:relative;
@@ -81,10 +81,10 @@ padding-bottom:10px;
 padding-top:10px;
 }
 #testimonials-txt, #testimonials-txt p{
-	font-size:11px;
+    font-size: 13px; text-align: justify; line-height: 19px;
 }
 #testimonials-txt .by-who{
-	font-size:13px;
+    font-size:13px;
 }
 .testimonial-by{
 position:absolute;
@@ -104,7 +104,7 @@ bottom:-40px;
     font-size: 16px;
     padding: 0.0625rem 0;
     margin: 0 0.625rem 0 0.312rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', sans-serif !important;
 }
 #main-nav ul.pagination li a:focus{
     background:none;
@@ -205,7 +205,7 @@ display:inline-block;
     margin-right: 1%;
     margin-bottom:15px;
     overflow:hidden;
-	position:relative;
+    position:relative;
 }
 
 .gallery-item img{
@@ -216,8 +216,8 @@ display:inline-block;
 .gallery-icon > a{
             width: 250px;
             height: 250px;
-			display:block;
-			float:left;
+            display:block;
+            float:left;
         }
 #photos-thumbs a.th{
     margin-top: 12px;
@@ -233,7 +233,7 @@ width:100%;
 }
 .content-textured {
     /*background: url(img/border-texture.png);*/
-	background: url(img/matte-black.jpg);
+    background: url(img/matte-black.jpg);
     max-width: 100%;
     float: left;
 }
@@ -254,11 +254,12 @@ margin:0;
 width:100%;
 }
 .content-textured-inner-about{
-	padding:0;
-	width:96.5%;
-	}
+    padding:0;
+    width:96.5%;
+    }
+
 .content-textured-inner-about > img{
-	width:100%;
+    width:100%;
 }
 .tabs-content > .content {
     padding: 0px;
@@ -282,8 +283,8 @@ div.row .off-grid-guides {
 .parties-tabs dd.active a {
     border-top: #fff 2px solid;
     /*background: #eaeaea;*/
-	background:#4f5c3e;
-	color:#fff;
+    background:#4f5c3e;
+    color:#fff;
 }
 .party-photos img {
     margin-bottom: 7px;
@@ -596,16 +597,16 @@ overflow:hidden;
     width: 90%;
 }
 .book-now {
-	width: 139px;
-	height: 31px;
-	background: url(img/book-now-bg.png) no-repeat;
-	text-transform: uppercase;
-	color: #dfdad7;
-	font-size: 18px;
-	padding: 4px 15px;
-	font-weight: bold;
-	display: inline-block;
-	border:none;
+    width: 139px;
+    height: 31px;
+    background: url(img/book-now-bg.png) no-repeat;
+    text-transform: uppercase;
+    color: #dfdad7;
+    font-size: 18px;
+    padding: 4px 15px;
+    font-weight: bold;
+    display: inline-block;
+    border:none;
 }
 
 input.book-now {
@@ -671,7 +672,7 @@ table.fullcalendar tr{
     text-align:center
 }
 .Slider-overlay img{
-	width:94%;
+    width:94%;
 }
 .main-slide-img{
     padding:24px 0 25px 0;
@@ -686,7 +687,7 @@ table.fullcalendar tr{
     /*background:url(img/caption-bg.png);*/
     text-align:right;
     heigt:100%;
-	padding-right:20px;
+    padding-right:20px;
 }
 .slider-txt-wrap, .slider-txt-wrap div, .fotorama__html > div {
     height:100%;
@@ -700,13 +701,14 @@ img.fotorama__img{
 width:96%;
 margin-left:4%;
 }
+
 .slider-txt h1,.slider-txt h4{
     font-size:24px;
     color:#552a01;
     font-weight:bold;
     text-transform:uppercase;
     line-height:26px;
-    font-family:Helvetica, san-serif;
+    font-family:'Lora', san-serif;
 }
 .slider-txt h2{
     font-size:44px;
@@ -714,7 +716,7 @@ margin-left:4%;
     font-weight:500;
     text-transform:uppercase;
     line-height:54px;
-    font-family:Helvetica, san-serif;
+    font-family:'Lora', san-serif;
 }
 .slider-txt h3{
     font-size:40px;
@@ -722,7 +724,7 @@ margin-left:4%;
     font-weight:500;
     text-transform:uppercase;
     line-height:50px;
-    font-family:Helvetica, san-serif;
+    font-family:'Lora', san-serif;
 }
 .learn-more{ 
     color:#fff;
@@ -746,15 +748,15 @@ right:20px;
 padding-top:20px;
 }
 table.inqury-form-holder, table.inqury-form-holder table, table.inqury-form-holder tr, table.inqury-form-holder table tr{
-	background:none;
-	border:none;
+    background:none;
+    border:none;
 }
 table.inqury-form-holder table td{
 width:33%;
 }
 .em-calendar li{
-	list-style:none;
-	-webkit-border-radius: 3px;
+    list-style:none;
+    -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     background:#a1856d;
@@ -765,7 +767,7 @@ width:33%;
     font-size: 12px;
 }
 table.em-calendar td.eventful a{
-	color:#fff;
+    color:#fff;
 }
 table.fullcalendar td {
     text-align: right;
@@ -773,35 +775,35 @@ table.fullcalendar td {
     height: 100px;
     border: 1px solid #ababab;
     vertical-align: top;
-	background:#f7f7f7;
+    background:#f7f7f7;
 }
 
 table.fullcalendar tr:first-child td, table.fullcalendar  td.month_name, table.fullcalendar tr:first-child td a{
-	text-align:center;
-	font-size:26px;
-	color:#666633;
-	font-weight:bold;
-	padding-top:20px;
-	height:60px;
-	background:none;
+    text-align:center;
+    font-size:26px;
+    color:#666633;
+    font-weight:bold;
+    padding-top:20px;
+    height:60px;
+    background:none;
 }
 table.fullcalendar tr.days-names td{
-	text-align:center;
-	font-size:13px;
-	color:#6c6d70;
-	font-weight:normal;
-	padding-top:5px;
-	height:30px;
-	background:#d4d7dd;
+    text-align:center;
+    font-size:13px;
+    color:#6c6d70;
+    font-weight:normal;
+    padding-top:5px;
+    height:30px;
+    background:#d4d7dd;
 }
 #menu-menus li{
     background:url(img/menu-links-bg.png) left center no-repeat;
-	padding-left:20px;
-	list-style:none;
-	}
+    padding-left:20px;
+    list-style:none;
+    }
 #menu-menus li a{
-	color:#663333;
-	text-decoration:underline;
+    color:#663333;
+    text-decoration:underline;
 }
 
 @media only screen and (max-width: 40em) {
@@ -884,7 +886,7 @@ table.fullcalendar tr.days-names td{
     font-weight:500;
     text-transform:uppercase;
     line-height:18px;
-    font-family:Helvetica, san-serif;
+    font-family:'Lora', san-serif;
 }
 .slider-txt h3{
     font-size:14px;
@@ -892,11 +894,15 @@ table.fullcalendar tr.days-names td{
     font-weight:500;
     text-transform:uppercase;
     line-height:16px;
-    font-family:Helvetica, san-serif;
+    font-family:'Lora', san-serif;
 }
 .gallery-item{
     width: 194px;
-	}
+    }
+    .large-12 .content-textured-inner-about {
+    padding: 0px;
+    width: 93.2%;
+}
 } /* Define mobile styles */
  @media only screen and (min-width: 40.063em) {
 /*#tnn-logo {
@@ -910,7 +916,7 @@ table.fullcalendar tr.days-names td{
     font-weight:500;
     text-transform:uppercase;
     line-height:26px;
-    font-family:Helvetica, san-serif;
+    font-family:'Lora', san-serif;
 }
 .slider-txt h3{
     font-size:20px;
@@ -918,7 +924,7 @@ table.fullcalendar tr.days-names td{
     font-weight:500;
     text-transform:uppercase;
     line-height:22px;
-    font-family:Helvetica, san-serif;
+    font-family:'Lora', san-serif;
 }
 .main-slide-img{
     padding:14px 0 15px 0;
@@ -942,9 +948,40 @@ display:inline-block;
     float: left;
 }
 
+.large-12 .content-textured-inner-about {
+    padding: 0px;
+    width: 97.2%;
+}
+
 }
  @media only screen and (min-width: 64.063em) {
  body.page-id-11 .content-textured-inner-about, body.page-id-5 .content-textured-inner-about{
-	width:97.7%;
-	}
+    width:97.7%;
+    }
+    
+    .large-12 .content-textured-inner-about {
+    padding: 0px;
+    width: 97.8%;
+}
 } /* min-width 1025px, large screens */
+
+
+#instafeed {
+  -webkit-transition: width 1s ease-in-out,margin .25s ease-in-out;
+  -moz-transition: width 1s ease-in-out,margin .25s ease-in-out;
+  transition: width 1s ease-in-out,margin .25s ease-in-out;
+}
+#instafeed a {
+  float: left;
+}
+div#instafeed {
+ width:101%;
+ display: block;
+ padding: 1px;
+ margin-bottom: 10px;
+ overflow: hidden;
+}
+div#instafeed a img{
+  margin-bottom: 1px;
+  margin-right: 1px;
+}
